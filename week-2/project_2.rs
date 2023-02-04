@@ -6,5 +6,5 @@ fn main() {
 	let acer:f64 = 1.00 * 250_000.00;
 	let sum:f64 = toshiba + mac + hp + dell + acer;
 	let average:f64 = sum /10.00;
-	println!("The average of the sales record is {}",average );
+	println!("The average of the sales record is {} The sum of the record is {}",average,sum );
 }
